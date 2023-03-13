@@ -1,0 +1,10 @@
+$schema: https://azuremlschemas.azureedge.net/latest/amlCompute.schema.json 
+name: aaa01
+type: amlcompute
+size: STANDARD_F16S_V2
+min_instances: 1
+max_instances: 1
+idle_time_before_scale_down: 120
+ssh_settings:
+  admin_username: azureuser
+  admin_password: Thonguyen22
